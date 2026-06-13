@@ -1,8 +1,8 @@
 
-import { Link } from 'react-router-dom'
+
 import { Header } from '../../components/common/header'
 import { motion } from 'framer-motion'
-import { Blogs } from './blogs/blogs'
+
 export const Herosection = () => {
   return (
     <div className='relative w-full min-h-screen overflow-hidden '>

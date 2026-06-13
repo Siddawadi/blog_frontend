@@ -8,7 +8,7 @@ type IButton = {
 
 }
 
-export const Button = ({type,label,disabled}:IButton) => {
+export const Button = ({type,label}:IButton) => {
 
   return (
     <button type={type}>{label}</button>
